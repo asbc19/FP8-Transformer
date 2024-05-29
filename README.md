@@ -20,5 +20,16 @@ Here, we only give details of our specific environment implementation:
    `conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia`
 3. Install git:  
    `conda install git`
-4. Download this repo:
-   `git clone `
+4. Clone FP8 emulation toolkit repo:  
+   `git clone https://github.com/IntelLabs/FP8-Emulation-Toolkit.git`
+5. Install FP8 emulation toolkit requirements:
+   `cd FP8-Emulation-Toolkit`  
+   `pip install -r requirements.txt`
+   `python setup.py install`
+   `conda install conda-forge::tensorboard`
+   `conda install conda-forge::tqdm`
+
+
+
+4. Download FP8 emulation toolkit repo:  
+   `git clone https://github.com/asbc19/FP8-Transformer.git`
