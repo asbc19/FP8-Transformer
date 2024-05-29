@@ -34,7 +34,7 @@ Here, we only give details of our specific environment implementation:
    `pip install -q datasets`  
    `pip install accelerate -U`  
    `pip install ipywidgets`
-8. Binary fractions for test vector generation: https://pypi.org/project/binary-fractions/
+8. Binary fractions for test vector generation: https://pypi.org/project/binary-fractions/  
    `pip install binary-fractions`  
 10. Clone this repo:  
    `git clone https://github.com/asbc19/FP8-Transformer.git`
