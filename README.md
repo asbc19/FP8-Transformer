@@ -15,7 +15,7 @@ Requirements from INTEL:
 
 Here, we only give details of our specific environment implementation:
 1. Create the conda environment and activate it:  
-   `conda create --name fp8_env python=3.10.12`
+   `conda create --name fp8_env python=3.10.12`  
    `conda activate fp8_env`
 3. Install PyTorch with CUDA:  
    `conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia`
