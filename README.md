@@ -40,6 +40,18 @@ Here, we only give details of our specific environment implementation:
    `git clone https://github.com/asbc19/FP8-Transformer.git`
 
 ## Examples
-1. `INTEL_emulator/tutorial_0/fp8_tutorial.ipynb`
+1. `INTEL_emulator/tutorial_0/fp8_tutorial.ipynb`  
    Jupiter notebook to verify the emulator installation and basic capabilities.
-2. 
+2. `INTEL_emulator/example_modified/bert/`  
+   Modified example from INTEL to run inference on the whole dataset using BERT-tiny.
+   - SQUAD2 dataset is required -> check `README.md` in the corresponding folder.
+   - Use the `bash` command to run any of the options: `cmd_inferTiny.sh`, `cmd_inferTiny_e4m3.sh`, etc.
+3. `INTEL_emulator/fp8_application/bert_tiny_selfatt.ipynb`  
+   Jupiter notebook to reproduce the self-attention layer of BERT-tiny to obtain intermediate feature maps.
+   - Use INTEL emulator for quantization.
+4. `INTEL_emulator/fp8_application/simple_inference.ipynb`  
+   Jupiter notebook to perform inference of simple networks using INTEL emulator.
+5. `fp16_test/test_vector.ipynb`    
+   Jupiter notebooks to generate test vectors for reconfigurable accumulator testbench.
+5. `fp8_test/test_vector.ipynb`    
+   Jupiter notebooks to generate test vectors for BERT-tiny self-attention layer testbench.
