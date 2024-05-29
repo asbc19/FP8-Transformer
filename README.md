@@ -22,12 +22,12 @@ Here, we only give details of our specific environment implementation:
    `conda install git`
 4. Clone FP8 emulation toolkit repo:  
    `git clone https://github.com/IntelLabs/FP8-Emulation-Toolkit.git`
-5. Install FP8 emulation toolkit requirements:
-   `cd FP8-Emulation-Toolkit`  
-   `pip install -r requirements.txt`
-   `python setup.py install`
-   `conda install conda-forge::tensorboard`
-   `conda install conda-forge::tqdm`
+5. Install FP8 emulation toolkit requirements:  
+   `cd FP8-Emulation-Toolkit`    
+   `pip install -r requirements.txt`  
+   `python setup.py install`  
+   `conda install conda-forge::tensorboard`  
+   `conda install conda-forge::tqdm`  
 
 
 
