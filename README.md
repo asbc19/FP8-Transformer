@@ -29,8 +29,10 @@ Here, we only give details of our specific environment implementation:
    `python setup.py install`  
    `conda install conda-forge::tensorboard`  
    `conda install conda-forge::tqdm`  
-
-
-
-4. Download FP8 emulation toolkit repo:  
+7. Install requirements to use Transformers (HuggingFace):  
+   `pip install -q transformers`  
+   `pip install -q datasets`  
+   `pip install accelerate -U`  
+   `pip install ipywidgets`  
+8. Clone this repo:  
    `git clone https://github.com/asbc19/FP8-Transformer.git`
