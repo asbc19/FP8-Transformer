@@ -14,3 +14,4 @@ Requirements from INTEL:
 - gcc >= 8.4.0
 
 Here, we only give details of our specific environment implementation:
+1. Create the conda environment: `conda create --name fp8_env python=3.10.12`
