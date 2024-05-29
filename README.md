@@ -4,7 +4,7 @@
 Based on the use of FP8 emulation toolkit from INTEL: https://github.com/IntelLabs/FP8-Emulation-Toolkit.git
 Also check: https://github.com/intel/neural-compressor.git
 
-## Conda Environment
+## Installation
 It is suggested to follow the instructions for the FP8 emulation toolkit from INTEL.  
 Requirements from INTEL:
 - Linux Machine
@@ -18,3 +18,7 @@ Here, we only give details of our specific environment implementation:
    `conda create --name fp8_env python=3.10.12`
 2. Install PyTorch with CUDA:  
    `conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia`
+3. Install git:  
+   `conda install git`
+4. Download this repo:
+   `git clone `
