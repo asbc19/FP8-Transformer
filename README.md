@@ -38,3 +38,8 @@ Here, we only give details of our specific environment implementation:
    `pip install binary-fractions`  
 10. Clone this repo:  
    `git clone https://github.com/asbc19/FP8-Transformer.git`
+
+## Examples
+1. `INTEL_emulator/tutorial_0/fp8_tutorial.ipynb`
+   Jupiter notebook to verify the emulator installation and basic capabilities.
+2. 
