@@ -17,24 +17,25 @@ Here, we only give details of our specific environment implementation:
 1. Create the conda environment and activate it:  
    `conda create --name fp8_env python=3.10.12`  
    `conda activate fp8_env`
-3. Install PyTorch with CUDA:  
+2. Install PyTorch with CUDA:  
    `conda install pytorch==2.1.0 torchvision==0.16.0 torchaudio==2.1.0 pytorch-cuda=12.1 -c pytorch -c nvidia`
-4. Install git:  
+  2.1 For WSL CONDA need to be installed there too: https://docs.nvidia.com/cuda/wsl-user-guide/index.html and https://developer.nvidia.com/cuda-12-1-0-download-archive?target_os=Linux&target_arch=x86_64&Distribution=WSL-Ubuntu&target_version=2.0&target_type=deb_network  
+5. Install git:  
    `conda install git`
-5. Clone FP8 emulation toolkit repo:  
+6. Clone FP8 emulation toolkit repo:  
    `git clone https://github.com/IntelLabs/FP8-Emulation-Toolkit.git`
-6. Install FP8 emulation toolkit requirements:  
+7. Install FP8 emulation toolkit requirements:  
    `cd FP8-Emulation-Toolkit`    
    `pip install -r requirements.txt`  
    `python setup.py install`  
    `conda install conda-forge::tensorboard`  
    `conda install conda-forge::tqdm`  
-7. Install requirements to use Transformers (HuggingFace):  
+8. Install requirements to use Transformers (HuggingFace):  
    `pip install -q transformers`  
    `pip install -q datasets`  
    `pip install accelerate -U`  
    `pip install ipywidgets`
-8. Binary fractions for test vector generation: https://pypi.org/project/binary-fractions/  
+9. Binary fractions for test vector generation: https://pypi.org/project/binary-fractions/  
    `pip install binary-fractions`  
 10. Clone this repo:  
    `git clone https://github.com/asbc19/FP8-Transformer.git`
